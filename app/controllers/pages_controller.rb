@@ -7,15 +7,8 @@ class PagesController < ApplicationController
   	
   end
 
-  def clients
+  def clients  
   	
   end
-
-  def contact
-  	
-  end
-
-  def portfolio
-  	
-  end
+  
 end
