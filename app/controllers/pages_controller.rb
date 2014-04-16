@@ -6,4 +6,16 @@ class PagesController < ApplicationController
   def about
   	
   end
+
+  def clients
+  	
+  end
+
+  def contact
+  	
+  end
+
+  def portfolio
+  	
+  end
 end
