@@ -3,6 +3,14 @@ Refinerylabs::Application.routes.draw do
   get "about" => "pages#about" 
   get "home" => "pages#home" 
   get "clients" => "pages#clients"
+  get "scrive" => "pages#scrive"
+
+  get "treat" => "pages#treat"
+  get "imaginairycountry" => "pages#imaginairycountry"
+  get "thegivinglab" => "pages#thegivinglab"
+  get "process" => "pages#process"
+  get "geekgirlmeetup" => "pages#geekgirlmeetup"
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

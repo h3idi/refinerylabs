@@ -3,14 +3,50 @@
 */
 
 /* navbar */
-@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-
-$body-bg:                         #ecf0f1;
 $font-family-sans-serif: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $navbar-height:                      45px;
-$navbar-default-bg:                 white;
+$navbar-default-bg:               #ecf0f1;
 $navbar-default-brand-color:      #2980b9;
 $brand-primary:                   #2980b9;
- 
+
+
 @import 'bootstrap';
+
+.quote{
+}
+
+.square{
+	height: 40px;
+	width: 200px;
+	border: 1px solid #424242;
+	margin: 20px auto;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 10px;
+} 
+
+.white-citat{
+	body-bg:  #ecf0f1;
+	margin: 80px 0px 50px 0px;
+	background: #16a085;
+	color: white;
+}
+
+/*.white-something{
+	padding: 40px 0px 50px 0px;
+	background: #ecf0f1;
+	color: #bdc3c7;
+	font-family: Helvetica;
+	font-size: 100px;
+	text-align:center; 
+} */
+
+.col-md-4{
+	padding: 30px 10px;
+}
+
+.col-md-6{
+	padding: 30px 10px;
+}
