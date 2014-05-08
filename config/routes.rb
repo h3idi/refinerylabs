@@ -6,7 +6,7 @@ Refinerylabs::Application.routes.draw do
   get "scrive" => "pages#scrive"
 
   get "treat" => "pages#treat"
-  get "imaginairycountry" => "pages#imaginairycountry"
+  get "imaginary_country" => "pages#imaginary_country"
   get "thegivinglab" => "pages#thegivinglab"
   get "process" => "pages#process"
   get "geekgirlmeetup" => "pages#geekgirlmeetup"
